@@ -10,17 +10,17 @@ class Stack {
   readonly stackArray: number[] = []
 
   // getters
-  public getStack(): number[] {
+  public getStack (): number[] {
     return this.stackArray
   }
 
   // methods
-  public push(pushedNumber: number): void {
+  public push (pushedNumber: number): void {
     // add a number to the array
     this.stackArray.push(pushedNumber)
   }
 
-  public pop(): void {
+  public pop (): void {
     // remove a number to the array
     this.stackArray.pop()
   }
